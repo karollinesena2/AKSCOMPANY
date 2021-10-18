@@ -1,0 +1,22 @@
+.row{
+    background-color: #03030344;
+    color: #030303b7;
+    width: 18rem;
+    font-size: 18px;
+    margin: 0 0 10 10px;
+    border-radius: 10px;   
+}
+.btn {
+    color: #0303037a;
+    background-color: transparent; 
+    cursor: pointer;
+    border: none;
+   
+}
+.btn:hover {
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+.menu-card{
+    list-style: none;
+}

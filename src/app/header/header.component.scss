@@ -1,0 +1,35 @@
+.container {
+  display: block;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #03030344;
+  margin: 0px 0px -20px 0px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px 10px  rgb(32, 31, 31);
+  max-width: 2000px;
+
+  h1 {
+    color: #fff;
+    font-weight: unset;
+    letter-spacing: 1.2rem;
+    text-align: center;
+    padding: 5px;
+    span {
+      color: #000000;
+    }
+  }
+  img {
+    height: 80px;
+    width: 80px;
+    margin: -19px 17px -15px 1px;
+  }
+}
+h2 {
+  font-weight: bold;
+  margin: 15px 15px 10px 0px;
+  letter-spacing: 0.5rem;
+
+  span {
+    color: #fff;
+  }
+}
