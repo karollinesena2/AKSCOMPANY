@@ -1,10 +1,12 @@
 .row{
-    background-color: #03030344;
-    color: #030303b7;
-    width: 18rem;
+    background: linear-gradient(to right, rgba(255, 92, 42, 0.671), rgb(94, 80, 80));
+    color: #fff;
+    width: 20rem;
     font-size: 18px;
     margin: 0 0 10 10px;
-    border-radius: 10px;   
+    border-radius: 10px;  
+    
+    
 }
 .btn {
     color: #0303037a;
@@ -19,4 +21,7 @@
 }
 .menu-card{
     list-style: none;
+}
+.openAcessories {
+    display: none;
 }

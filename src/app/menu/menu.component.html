@@ -1,28 +1,28 @@
 <div class="row">
-    <div class="col s12 m5">
+    <div class="col s12 m4">
       <div class="card-panel teal">
         <span class="menu-card">
           <section>
           <li>
              <button class="btn">
-               <a (click)="showLooks()">
-               <i [ngClass]=" openLooks ? 'fa fa-angle-down' : ' fa fa-angle-right'"> 
+               <a (click)="showLooks">
+               <i *ngIf="openLooks" class="fa fa-angle-down"> 
             </i>
-               </a>
+            <i *ngIf="!openLooks" class="fa fa-angle-right"></i>
+          </a>            
             </button> 
               Roupas Femininas
             </li>
              <li *ngFor="let item of looks" >
               {{ item.name }}
-             </li>
+             </li>     
              <li>
                   <button class="btn" >
                     <a (click) = "showAcessories">
                     <i [ngClass]="openAcessories ? 'fas fa-angle-up'  :  'fas fa-angle-right'">
                     </i>
                   </a>
-                  </button> Acessórios</li>     
-                 
+                  </button> Acessórios</li>                     
                     <li *ngFor="let item of acessories">
                {{ item.name }}
              </li>
@@ -35,7 +35,6 @@
                 </button> Sapatos</li>
               <li *ngFor="let item of shoes">
                 {{ item.name }}
-
               </li>
                   <li>
                 <button class="btn">

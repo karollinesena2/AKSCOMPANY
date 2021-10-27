@@ -2,11 +2,10 @@
   display: block;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #03030344;
-  margin: 0px 0px -20px 0px;
-  padding: 5px;
-  box-shadow: 0px 0px 10px 10px  rgb(32, 31, 31);
-  max-width: 2000px;
+  background: linear-gradient(to right, rgba(255, 92, 42, 0.671), rgb(94, 80, 80));
+  padding: 0px;
+  box-shadow: 0px 0px 5px 5px #743c3c;
+  
 
   h1 {
     color: #fff;
@@ -15,7 +14,7 @@
     text-align: center;
     padding: 5px;
     span {
-      color: #000000;
+      color: #6d0000;
     }
   }
   img {
@@ -28,6 +27,7 @@ h2 {
   font-weight: bold;
   margin: 15px 15px 10px 0px;
   letter-spacing: 0.5rem;
+  color: #6d0000;
 
   span {
     color: #fff;

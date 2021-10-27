@@ -1,15 +1,17 @@
 .container {
-  background-color: #030303d7;
-  box-shadow: 2px 2px 2px 2px #030303d7;
+  background: linear-gradient(to right, rgba(255, 92, 42, 0.671), rgb(94, 80, 80));
+  box-shadow:0px 0px 5px 5px #743c3c;
+  max-width: 100%;
+  margin: 0px;
 
   li {
     padding: 2px 10px;
     display: inline-block;
-    max-width: 2000px;
     margin: 10px 0px 10px 10px;
     list-style: none;
     align-items: stretch;
-    
+
+
   }
   .__btn{
       font-size: 17px;
@@ -25,4 +27,5 @@
       background-color: #0303037c;
       transition-duration: 0.2s;
   }
+
 }

@@ -3,7 +3,8 @@
     position: fixed;
     width: 100%;
     text-align: center;
-    background-color: #03030344;
+    background: linear-gradient(to right, rgba(255, 92, 42, 0.671), rgb(94, 80, 80));
+    box-shadow: 10px 10px 10px 10px #743c3c;
 }
 .icons {
     display: flex;
