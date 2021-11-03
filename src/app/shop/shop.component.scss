@@ -1,0 +1,15 @@
+.home {
+  background-color: #E7E5D8;
+
+  &__fliper {
+    align-items: center;
+    display: flex;
+
+    img {
+      height: 400px;
+      margin: 10px 10px 10px 10px;
+      cursor: pointer;
+    }
+    
+  }
+}

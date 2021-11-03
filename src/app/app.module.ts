@@ -13,6 +13,7 @@ import {Routes} from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FormsModule } from '@angular/forms';
 import { HelpComponent } from './help/help.component';
+import { ShopComponent } from './shop/shop.component';
 
 
 const appRoutes: Routes = [
@@ -31,6 +32,7 @@ const appRoutes: Routes = [
     MenuComponent,
     PageNotFoundComponent,
     HelpComponent,
+    ShopComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,27 +1,24 @@
-.row{
-    background: linear-gradient(to right, rgba(255, 92, 42, 0.671), rgb(94, 80, 80));
-    color: #fff;
-    width: 20rem;
-    font-size: 18px;
-    margin: 0 0 10 10px;
-    border-radius: 10px;  
-    
-    
+.row {
+  background: linear-gradient(to right, (#e7e5d8), rgba(255, 92, 42, 0.671));
+  color: #6d0000;
+  width: 25rem;
+  font-size: 21px;
+  margin: 0 0 10 10px;
+  border-radius: 10px;
 }
 .btn {
-    color: #0303037a;
-    background-color: transparent; 
-    cursor: pointer;
-    border: none;
-   
+  color: #0303037a;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
 }
 .btn:hover {
-    transition-duration: 0.2s;
-    border-radius: 10px;
+  transition-duration: 0.2s;
+  border-radius: 10px;
 }
-.menu-card{
-    list-style: none;
+.menu-card {
+  list-style: none;
 }
 .openAcessories {
-    display: none;
+  display: none;
 }

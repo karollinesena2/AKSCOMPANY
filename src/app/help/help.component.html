@@ -1,4 +1,4 @@
-
+<div class="menu-card">
 <div class="row">
     <label>Qual é a sua dúvida? </label>
     <input [(ngModel)]="digitado" type="text"/>
@@ -6,6 +6,7 @@
 </div>
 
 <div *ngFor="let item of lista">
-    <a>{{item.nome}}</a>
+    <a>{{item.string}}</a>
+</div>
 </div>
 <router-outlet></router-outlet>

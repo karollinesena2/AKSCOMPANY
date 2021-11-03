@@ -1,6 +1,6 @@
 .container {
-  background: linear-gradient(to right, rgba(255, 92, 42, 0.671), rgb(94, 80, 80));
-  box-shadow:0px 0px 5px 5px #743c3c;
+  background: linear-gradient(to right, (#E7E5D8), rgba(255, 92, 42, 0.671));
+  box-shadow:0px 0px 3px 3px #f3ceb9;
   max-width: 100%;
   margin: 0px;
 
@@ -20,7 +20,7 @@
       cursor: pointer;
       box-shadow: 5px 5px 5px 0px #030303d7;
       font-family:Georgia, 'Times New Roman', Times, serif;
-      color: #fff;
+      color:  #6d0000;
       background-color: #03030300;
   }
   .__btn:hover{

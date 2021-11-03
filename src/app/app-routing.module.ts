@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {MenuComponent} from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { HelpComponent } from './help/help.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ShopComponent } from './shop/shop.component';
 
 
 
@@ -12,8 +12,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const routes: Routes = [
 {path: 'menu', component: MenuComponent },
 {path: 'home', component: HomeComponent},
-{path: '', pathMatch: 'full', redirectTo: 'home'},
-{path:'**', component: PageNotFoundComponent },
+{path:'shop', component: ShopComponent },
 {path: 'help', component: HelpComponent},
 
 ];

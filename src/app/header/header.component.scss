@@ -1,35 +1,35 @@
 .container {
-  display: block;
+  display: flex;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background: linear-gradient(to right, rgba(255, 92, 42, 0.671), rgb(94, 80, 80));
+  background: linear-gradient(to right, (#E7E5D8), rgba(255, 92, 42, 0.671));
   padding: 0px;
-  box-shadow: 0px 0px 5px 5px #743c3c;
+  box-shadow: 0px 0px 3px 3px #f3ceb9;
   
 
   h1 {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-weight: unset;
     letter-spacing: 1.2rem;
-    text-align: center;
-    padding: 5px;
+    padding: 3px;
+    
     span {
       color: #6d0000;
     }
   }
   img {
-    height: 80px;
-    width: 80px;
-    margin: -19px 17px -15px 1px;
+    height: 60px;
+    width: 60px;
+    margin: 19px 17px -15px 1px;
   }
 }
 h2 {
   font-weight: bold;
-  margin: 15px 15px 10px 0px;
+  margin: 27px 15px 10px 0px;
   letter-spacing: 0.5rem;
   color: #6d0000;
 
   span {
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
 }
