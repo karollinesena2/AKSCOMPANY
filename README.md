@@ -1,2 +1,1 @@
-# AKSCOMPANY
-loja online
+Testando o conhecimento em Angular, desenvolvendo uma loja online. 
